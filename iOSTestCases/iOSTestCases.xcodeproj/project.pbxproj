@@ -16,6 +16,8 @@
 		FB727254289D0A9500E4F9B9 /* iOSTestCasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB727253289D0A9500E4F9B9 /* iOSTestCasesTests.swift */; };
 		FB72725E289D0A9500E4F9B9 /* iOSTestCasesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72725D289D0A9500E4F9B9 /* iOSTestCasesUITests.swift */; };
 		FB727260289D0A9500E4F9B9 /* iOSTestCasesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72725F289D0A9500E4F9B9 /* iOSTestCasesUITestsLaunchTests.swift */; };
+		FB72726D289D0F7B00E4F9B9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72726C289D0F7B00E4F9B9 /* UserModel.swift */; };
+		FB72726F289D0FB800E4F9B9 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB72726E289D0FB800E4F9B9 /* UserViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		FB727259289D0A9500E4F9B9 /* iOSTestCasesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestCasesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB72725D289D0A9500E4F9B9 /* iOSTestCasesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestCasesUITests.swift; sourceTree = "<group>"; };
 		FB72725F289D0A9500E4F9B9 /* iOSTestCasesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSTestCasesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB72726C289D0F7B00E4F9B9 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		FB72726E289D0FB800E4F9B9 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				FB727245289D0A9400E4F9B9 /* Assets.xcassets */,
 				FB727247289D0A9400E4F9B9 /* LaunchScreen.storyboard */,
 				FB72724A289D0A9400E4F9B9 /* Info.plist */,
+				FB72726C289D0F7B00E4F9B9 /* UserModel.swift */,
+				FB72726E289D0FB800E4F9B9 /* UserViewModel.swift */,
 			);
 			path = iOSTestCases;
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			files = (
 				FB727241289D0A9300E4F9B9 /* ViewController.swift in Sources */,
 				FB72723D289D0A9300E4F9B9 /* AppDelegate.swift in Sources */,
+				FB72726D289D0F7B00E4F9B9 /* UserModel.swift in Sources */,
+				FB72726F289D0FB800E4F9B9 /* UserViewModel.swift in Sources */,
 				FB72723F289D0A9300E4F9B9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
